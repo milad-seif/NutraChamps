@@ -1,0 +1,12 @@
+#Keep out of repo
+
+/wp-content/upgrade
+/wp-content/uploads
+/sitemap.*
+/wp-config.php
+
+#hidden files
+*.DS_Store
+*Thumbs.db
+*.sass-cache*
+*~imageoptim*
