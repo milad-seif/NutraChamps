@@ -1200,4 +1200,63 @@ html[xmlns] .slides{display:block;}
   
   
 /*  custom  */
+#utility-nav-wrapper {
+    width: 100%;
+    background: #f7f7f7;
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    line-height: 40px;
+}
+#utility-nav-wrapper h4 {
+    text-align: right;
+    width: 63%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 0;
+    color: #00c4f1;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 17px;
+    font-size: 1.7rem
+}
+@media screen and (max-width: 58.25em) {
+    #utility-nav-wrapper h4 {
+        width: 45%
+    }
+}
+#utility-nav a.cart-button,
+#utility-nav a.cart-button:link,
+#utility-nav a.cart-button:visited {
+    margin-left: 5px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+    font-size: 1.7rem
+}
+a.cart-button,
+a.cart-button:link,
+a.cart-button:visited {
+    display: block;
+    background: #75d849;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    font-size: 1.7rem;
+    padding: 0 11px
+}
+a.cart-button:hover,
+a.cart-button:focus,
+a.cart-button:active {
+    background: #00afd8
+}
+#footer-cart .cart-button {
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    min-width: 100px;
+    z-index: 9999;
+    display: none
+}
   
