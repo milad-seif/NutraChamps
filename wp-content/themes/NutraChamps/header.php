@@ -47,7 +47,7 @@ Header to be edited later
 		  <div id="main-header" class="container-wrapper clearfix">
 		    <a id="logo-wrapper" href="/" title="Islands Miracle">
 		      
-		      <img src="/logo.png" id="logo" alt="NutraChamps">
+		      <img src="/wordpress/wp-content/uploads/2016/11/Black_NC-1-e1466738985135.png" id="logo" alt="NutraChamps">
 		      
 		    </a>
 		    <div id="header-cta">
